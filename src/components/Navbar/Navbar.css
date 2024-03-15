@@ -5,7 +5,7 @@
     box-shadow: 0 1px 3px 2px black;
     align-items: center;
     height: 90px;
-    
+    position: relative;
 }
 .nav-logo{
     display: flex;
@@ -60,18 +60,18 @@
     height: 58px;
     outline: none;
     border: 1px solid #7a7a7a;
-    border-radius: 75px;
+    border-radius: 10px;
     font-size: 20px;
     font-weight: 500;
     color: white;
     background: rgb(95, 173, 237);
     cursor: pointer;
 }
-.nav-login-cart button:hover {
+/* .nav-login-cart button:hover {
     background: rgba(121, 65, 225, 0.788);
     color: white;
     width: 150px;
-}
+} */
 .nav-login-cart button:active{
     background: #f3f3f3;
     color: black;
@@ -172,7 +172,9 @@
     .navbar{
         padding: 10px 0px;
         align-items: center;
-
+        position: relative;
+        margin: 0px;
+        padding: 0px;
     }
     .nav-drop{
         display: block;
@@ -200,13 +202,41 @@
         transform: rotate(90deg);
     }
 }
- @media(max-width:500px) and (min-width:400px){
+ @media(max-width:600px) {
     .navbar{
-        width: 8px 0px;
+        width: 100%;
         gap: 0px;
+        position: relative;
+        margin: 0px;
+        padding: 0px;
+    
     }
     .nav-logo{
         transform: scale(0.8s);
+        width:16px;
+        margin-left: -40px;
+        padding-left: -40px;
+        gap:10px;
+        padding-right: 20px;
+    }
+    .nav-logo p{
+        font-size: 20px;
+    }
+    .nav-logo img{
+        /* padding-left: -20px; */
+        width:50px;
+        margin-left: -40px;
+    }
+    .nav-login-cart button{
+        width:60px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .nav-drop{
+       width:20px;
+       padding-left: 50px;
+       margin-left: 30px;
+       padding: 40px;
     }
     .nav-menu{
         height: 70px;

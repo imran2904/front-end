@@ -70,7 +70,8 @@
 /* Media query for screens smaller than 600px */
 @media only screen and (max-width: 600px) {
   .login-signup-container {
-    width: 80%;
+    width: 60%;
+    padding-bottom: 30px;
   }
 
   .login-signup-fields {

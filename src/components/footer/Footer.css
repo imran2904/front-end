@@ -143,6 +143,45 @@
         
     }
 }
- @media(max-width:500px) and (min-width:400px){
- 
+ @media(max-width:600px) {
+    .footer{
+    
+        gap:10px;
+    }
+    .footer-logo{
+       
+        gap: 8px;
+        width: 15px;
+    }
+    .footer-logo p{
+        
+        font-size: 15px;
+        
+    }
+    .footer-links{
+       
+        gap: 10px;
+        font-size: 15px;
+        
+    }
+    .footer-social-icon{
+        gap:10px;
+    } 
+    .footer-icon-container{
+        padding: 8px;
+        padding-bottom: 16px;
+       margin-bottom: 50px;
+       
+    }
+    .footer-copyright{
+       
+        gap: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .footer-copyright hr{
+       
+        height: 3px;
+        
+    }
  }
